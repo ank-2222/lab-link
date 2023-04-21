@@ -29,8 +29,6 @@ Potential to reduce the incidence of medical malpractice lawsuits
 
 ## Working Model
 ### Certification page:
-![WhatsApp Image 2023-02-25 at 11 19 55](https://user-images.githubusercontent.com/95167315/221341785-73580da9-0c8e-419f-a8c2-b7bed5f45f52.jpg)
+![Certificate](./src/img/Certificate1.png)
 ### Data Updation page:
-![WhatsApp Image 2023-02-25 at 11 20 14](https://user-images.githubusercontent.com/95167315/221341808-94ab101e-a8a8-452a-bb65-39d7aaa425d7.jpg)
-### NABL Approval page:
-![WhatsApp Image 2023-02-25 at 11 20 40](https://user-images.githubusercontent.com/95167315/221341814-ee2a4a18-c593-4c9d-8fb1-77221cf5aad1.jpg)
+![Data Updation Page](./src/img/DataUpdation.png)
