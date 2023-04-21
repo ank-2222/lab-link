@@ -35,27 +35,33 @@ export default function Details({ isAuth }) {
       toast.warn("Enter all Data!!!");
     } else {
       if (purchaseDate > date) {
-        toast.warn("Purchase Date should be less than currnt date");
+        toast.warn("check Purchase Date!!");
       }
-      await addDoc(dataCollectionRef, {
-        machineId,
-        machineName,
-        manufacturer,
-        purchaseDate,
-        date,
-        maintenanceDate,
-        nextMaintenance,
-        calibrationDate,
-        calibrationExpiry,
-        location,
-        status,
-        author: {
-          name: auth.currentUser.displayName,
-          id: auth.currentUser.uid,
-        },
-      });
-      toast("Data Added Successfully!");
-      navigate("/");
+      else if(maintenanceDate>nextMaintenance){
+        toast.warn("check Maintenance Date!!")
+      }
+      else{
+        await addDoc(dataCollectionRef, {
+          machineId,
+          machineName,
+          manufacturer,
+          purchaseDate,
+          date,
+          maintenanceDate,
+          nextMaintenance,
+          calibrationDate,
+          calibrationExpiry,
+          location,
+          status,
+          author: {
+            name: auth.currentUser.displayName,
+            id: auth.currentUser.uid,
+          },
+        });
+        toast("Data Added Successfully!");
+        navigate("/");
+      }
+     
     }
   };
 
