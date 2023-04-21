@@ -1,4 +1,5 @@
-# LAB LINK
+# LAB LINK 
+![LAB LINK](./src/img/lab.png)
 
 ## Live URL
 https://lab-link.onrender.com/
