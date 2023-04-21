@@ -10,10 +10,11 @@
 
 .loginEngineer {
   padding: 20px;
-  background-color: black;
+  background-color: #123;
   color: beige;
   font-weight: 600;
   font-size: 1em;
+  margin-bottom: 20px;
 }
 .details {
   font-family: "Montserrat", sans-serif;

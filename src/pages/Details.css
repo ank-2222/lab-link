@@ -1,6 +1,6 @@
 .detailsMain{
   max-width: 1000px;
-  margin: 100px auto;
+  margin: 50px auto;
   /* border: 1px solid red; */
   color: white;
   font-size: 20px;
@@ -9,7 +9,7 @@
 
 .detailsForm{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 
@@ -18,18 +18,27 @@
 .detailsInput{
   max-width: 600px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content:center;
+
+  align-items: flex-start;
+
   margin: 10px;
 }
 .detailsInput>h4{
   margin-right: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 .detailsInput>input{
   margin-right: 20px;
-  width: 200px;
+  width: 300px;
   height: 30px;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  color: white;
 }
 .submitBtnDiv{
    display: flex;
@@ -39,9 +48,18 @@
 
 }
 .submitBtn{
-  font-size: 32px;
+  font-size: 20px;
   margin-top: 50px;
-  padding: 10px;
+  padding: 5px;
+  width: 200px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+
+}
+.submitBtn:hover{
+  background-color: #123;
+  color:#fff;
 }
 .radioInput{
   display: flex;
@@ -51,4 +69,32 @@
 }
 .radioInput>div{
 margin-right: 20px;
+
+}
+.radioInput>div>label{
+  font-size: 20px;
+  margin: 0 10px;
+  font-weight: 600;
+
+}
+.detailHead{
+  margin: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.statusHead{
+  text-align: center;
+  font-size: larger;
+  margin: 10px 0;
+}
+
+@media screen and  (max-width:486px){
+  .detailsForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
 }

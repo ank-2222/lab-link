@@ -74,7 +74,7 @@
   }
   
   .hrLine{
-    width: 700px;
+    max-width: 700px;
     height: 2px;
     background-color: #12324b;
     margin: auto;
@@ -129,4 +129,69 @@
     text-align: center;
     font-weight: 700;
     font-size: 20px;
+  }
+
+  .certificateIcon{
+    font-size: 40px;
+  }
+
+  @media screen and (max-width:486px){
+    .certificateIcon{
+      font-size: 30px;
+    }
+  
+    .certificateMain{
+      max-width: 400px;
+      margin: auto;
+      /* border: 1px solid red; */
+
+    }
+    .certificateHero>h1{
+      font-size: 20px;
+
+    }
+    .hrLine{
+      max-width: 300px;
+
+    }
+    .certificatePara{
+      max-width: 400px;
+    }
+    .certificatePara>p{
+      font-size: 14px;
+
+    }
+    .detailDiv{
+      width: 400px;
+      margin: auto;
+      padding-left: 50px;
+      /* border: 1px solid red; */
+    }
+    .detailDiv>h3{
+      font-size: 16px;
+
+    }
+
+    .certificateFooter{
+      display: flex;
+      padding: 10px;
+    flex-direction: column;
+
+    }
+    .certificateContent{
+      max-width: 400px;
+
+    }
+    .key{
+      font-size: 16px;
+    font-weight: 500;
+    }
+    
+    .value{
+    margin-left: 10px;
+    font-weight: 600;
+      font-size: 14px;
+    }
+    
+    
   }
