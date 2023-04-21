@@ -7,29 +7,25 @@ import moment from "moment";
 import "./Certificate.css";
 import logo from "../img/lab.png";
 import { TbCertificate } from "react-icons/tb";
-function Certificate() {
+function Certificate(props) {
   const navigate = useNavigate();
   const [dataList, setDataList] = useState([]);
-  const dataCollectionRef = collection(db, "machineData");
-  const approveDataRef = collection(db, "approveData");
+  // const dataCollectionRef = collection(db, "machineData");
+  // const approveDataRef = collection(db, "approveData");
   useEffect(() => {
-    const getList = async () => {
-      const data = await getDocs(dataCollectionRef);
-      setDataList(data.docs.map((elem) => ({ ...elem.data(), id: elem.id })));
-    };
 
-    getList();
-  }, []);
+  setDataList(props.elem)
+    
+  }, [])
+  
+// console.log(dataList);
+  // const approveFunc = async () => {
+  //   const sendData = dataList[0];
+  //   await addDoc(approveDataRef, {
+  //     sendData,
+  //   });
 
-  const approveFunc = async () => {
-    // console.log("approve")
-    const sendData = dataList[0];
-    await addDoc(approveDataRef, {
-      sendData,
-    });
-
-    // navigate("/");
-  };
+  // };
 
   return (
     <div className="certificateMain">
@@ -46,43 +42,44 @@ function Certificate() {
       <div className="certificateContent">
         <div className="detailDiv">
           <h3>Machine ID:</h3>
-          <h4>10001</h4>
+          <h4>{dataList.machineId}</h4>
         </div>
         <div className="detailDiv">
           <h3>Machine Name:</h3>
-          <h4>MRI Machine</h4>
+          <h4>{dataList.machineName}</h4>
         </div>
         <div className="detailDiv">
           <h3>Manufacturer:</h3>
-          <h4>Phillips</h4>
+          <h4>{dataList.manufacturer}</h4>
         </div>
         <div className="detailDiv">
           <h3>Purchase Date:</h3>
-          <h4>2020-02-15</h4>
+          <h4>{dataList.purchaseDate}</h4>
         </div>
         <div className="detailDiv">
           <h3>Maintenance Date:</h3>
-          <h4>2022-03-12</h4>
+          <h4>{dataList.maintenanceDate}</h4>
         </div>
         <div className="detailDiv">
           <h3>Next Maintenance:</h3>
-          <h4>2022-09-15</h4>
+          <h4>{dataList.nextMaintenance}</h4>
         </div>
         <div className="detailDiv">
           <h3>Calibration Date:</h3>
-          <h4>2022-03-15</h4>
+          <h4>{dataList.calibrationDate}</h4>
         </div>
         <div className="detailDiv">
           <h3>Calibration Expiry:</h3>
-          <h4>2023-03-15</h4>
+          <h4>{dataList.calibrationExpiry}</h4>
         </div>
         <div className="detailDiv">
           <h3>Location:</h3>
-          <h4>Delhi</h4>
+          <h4>{dataList.location}</h4>
         </div>
         <div className="detailDiv">
           <h3>Status:</h3>
-          <h4>OK</h4>
+          <h4>{dataList.status&&"OK"}</h4>
+          <h4>{!dataList.status&&"FAULTY"}</h4>
         </div>
       </div>
 
@@ -90,7 +87,7 @@ function Certificate() {
         <div className="footerDiv1">
           <div>
             <p className="key">Date:</p>
-            <p className="value">12/12/34</p>
+            <p className="value">{dataList.date}</p>
           </div>
           <div>
             <p className="key">Certified By:</p>
