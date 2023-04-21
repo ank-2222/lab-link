@@ -104,7 +104,7 @@ export default function Details({ isAuth }) {
           />
         </div>
         <div className="detailsInput">
-          <h4>Next Maintenance</h4>
+          <h4>Next Maintenance Date</h4>
           <input
             onChange={(e) => setNextMaintenance(e.target.value)}
             type="date"

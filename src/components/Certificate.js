@@ -57,15 +57,15 @@ function Certificate(props) {
           <h4>{dataList.purchaseDate}</h4>
         </div>
         <div className="detailDiv">
-          <h3>Maintenance Date:</h3>
+          <h3>Last Maintenance Date:</h3>
           <h4>{dataList.maintenanceDate}</h4>
         </div>
         <div className="detailDiv">
-          <h3>Next Maintenance:</h3>
+          <h3>Next Maintenance Date:</h3>
           <h4>{dataList.nextMaintenance}</h4>
         </div>
         <div className="detailDiv">
-          <h3>Calibration Date:</h3>
+          <h3>Last Calibration Date:</h3>
           <h4>{dataList.calibrationDate}</h4>
         </div>
         <div className="detailDiv">
