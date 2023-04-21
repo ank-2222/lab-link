@@ -30,7 +30,7 @@ function Certificate(props) {
   return (
     <div className="certificateMain">
       <div className="certificateHero">
-        <TbCertificate style={{ marginRight: "20px" }} fontSize={40} />
+        <TbCertificate style={{ marginRight: "20px" }} className="certificateIcon" />
         <h1>Maintenance Certificate</h1>
       </div>
       <div className="certificatePara">
