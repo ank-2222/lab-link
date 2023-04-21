@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.loginMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.loginEngineer {
+  padding: 20px;
+  background-color: black;
+  color: beige;
+  font-weight: 600;
+  font-size: 1em;
+}
+.details {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  display: inline;
+}
+.logo {
+  padding: 20px;
+}
+
+.indi {
+  display: flex;
+  flex-direction: row;
+}
+.indi > h3 {
+  padding-right: 20px;
+}
+.indi > h4 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.certificateMain {
+  max-width: 1000px;
+  border-radius: 4px;
+  font-family: Montserrat;
+  margin: 50px auto;
+  height: fit-content;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  /* background-color: #DFDBE5; */
+
+
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.54' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.certificateHero {
+  margin:  auto;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 30px;
+  text-decoration: underline;
+  font-size: 25px;
+  font-family: Raleway,'sans-serif'   !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.certificatePara{
+  text-align: center;
+  font-size: 20px;
+  /* font-weight: 650; */
+  max-width: 700px;
+  margin: 30px auto;
+
+}
+.certificateContent {
+  margin: 20px auto;
+  width: 900px;
+
+}
+.detailDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px auto;
+  max-width: 700px;
+
+}
+.detailDiv > h3 {
+  text-align: left;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+
+.detailDiv > h4 {
+  text-align: left;
+  font-weight: 700;
+margin-left: 10px;
+  margin-top: 3px;
+  font-size: 16px;
+
+}
+.certificateLogo{
+  width: 150px;
+  height: 50px;
+  
+}
+
+.hrLine{
+  width: 700px;
+  height: 2px;
+  background-color: #12324b;
+  margin: auto;
+
+  color: black;
+}
+
+.certificateFooter{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+align-items: center;  
+max-width: 700px;
+margin: 0px auto;
+margin-top: 30px;
+}
+
+.footerDiv1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.footerDiv1>div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ padding: 5px 0;
+}
+
+.key{
+  font-size: 18px;
+font-weight: 500;
+}
+
+.value{
+margin-left: 10px;
+font-weight: 600;
+  font-size: 18px;
+}
+
+
+
+
+
+.certificateCreated{
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
