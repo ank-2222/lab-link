@@ -18,7 +18,7 @@ The QR codes can be placed on each machine and can be scanned by patients to obt
 This information can be made available to patients through a website or mobile app, making it easier for them to verify the accuracy of their medical reports and take informed decisions regarding their health.
 
 ## Advantages
-* Here are some advantages of the proposed solution in bullet points:
+Here are some advantages of the proposed solution in bullet points:
 * Increased transparency in the medical testing process
 * Provides patients with access to information about testing equipment used in medical facilities
 * Helps patients verify the accuracy of their medical reports
