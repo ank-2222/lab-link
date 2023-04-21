@@ -29,6 +29,6 @@ Potential to reduce the incidence of medical malpractice lawsuits
 
 ## Working Model
 ### Certification page:
-![Certificate](./src/img/lab.png)
+![Certificate](./src/img/Certificate1.png)
 ### Data Updation page:
 ![Data Updation Page](./src/img/DataUpdation.png)
