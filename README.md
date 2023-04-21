@@ -1,5 +1,8 @@
 # LAB LINK
 
+## Live URL
+https://lab-link.onrender.com/
+
 ## Description
 Using a QR code-based system that gives patients access to information about the testing equipment used in medical facilities will solve the issue of medical negligence caused by defective testing equipment in India. 
 Patients can scan the QR codes that can be printed on each machine to learn details like the unit's purchase date, purchase history, and maintenance schedules.
@@ -19,16 +22,16 @@ This information can be made available to patients through a website or mobile a
 
 ## Advantages
 Here are some advantages of the proposed solution in bullet points:
-Increased transparency in the medical testing process
-Provides patients with access to information about testing equipment used in medical facilities
-Helps patients verify the accuracy of their medical reports
-Encourages medical facilities to maintain and update their equipment regularly
-Reduces the incidence of medical errors caused by faulty machines
-Improves the overall quality of healthcare in India
-Potential to reduce the incidence of medical malpractice lawsuits
+* Increased transparency in the medical testing process
+* Provides patients with access to information about testing equipment used in medical facilities
+* Helps patients verify the accuracy of their medical reports
+* Encourages medical facilities to maintain and update their equipment regularly
+* Reduces the incidence of medical errors caused by faulty machines
+* Improves the overall quality of healthcare in India
+* Potential to reduce the incidence of medical malpractice lawsuits
 
 ## Working Model
-### Certification page:
+### Certificate:
 ![Certificate](./src/img/Certificate1.png)
 ### Data Updation page:
 ![Data Updation Page](./src/img/DataUpdation.png)
